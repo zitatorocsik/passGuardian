@@ -12,7 +12,7 @@ var showButton = document.getElementById("show-button");
 crackButton.addEventListener("touchstart", estimateCrackTime);
 
 function comingsoon() {
-  alert("The safari extension is coming soon...")
+  window.alert("The safari extension is coming soon...")
 }
 
 // function estimateCrackTime(password) {
