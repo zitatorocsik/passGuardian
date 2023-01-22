@@ -2,7 +2,7 @@ body{
     font-family: "Montserrat";
 }
 #title{
-    background-color:#ff4c68;
+    background-color:#ffa500;
     color:#fff ;
 }
 
@@ -158,3 +158,4 @@ p{
         transform: rotate(0);
     }
 }
+
