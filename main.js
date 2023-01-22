@@ -2,14 +2,14 @@ function showPassword() {
     document.getElementById("user-input").type = "text";
   }
   
-  function hidePassword() {
+function hidePassword() {
     document.getElementById("user-input").type = "password";
   }
 
-  function estimateCrackTime() {
+function estimateCrackTime() {
     var password = document.getElementById("user-input").value;
     // Define the number of possible characters
-    var possibleChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=,.?/:;{}[]";
+    var possibleChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&()_-+=,.?/:;{}[]";
     // Define the number of guesses per second
     var guessesPerSecond = 100000000; // 100 million
     // Calculate the number of possible combinations
@@ -17,7 +17,7 @@ function showPassword() {
     // Calculate the estimated time to crack the password
     var estimatedTime = possibleCombinations / guessesPerSecond;
     // Convert estimated time to days, hours, minutes, and seconds
-    var days = Math.floor(estimatedTime / (60 * 60 * 24));
+    var days = Math.floor(estimatedTime / (60 60 * 24));
     var hours = Math.floor(estimatedTime / (60 * 60)) % 24;
     var minutes = Math.floor(estimatedTime / 60) % 60;
     var seconds = Math.floor(estimatedTime) % 60;

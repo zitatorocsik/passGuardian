@@ -18,6 +18,13 @@ body{
 .container{
     padding: 3% 15% 15%;
 }
+
+#user-input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+}
  
 h1{
     font-family: 'Montserrat', sans-serif;
