@@ -2,6 +2,7 @@ body{
     font-family: "Montserrat";
 }
 
+
 #show-button, #cracker-button {
     padding: 10px;
   }
@@ -174,3 +175,12 @@ p{
     }
 }
 
+/*Generate a password section */
+.generatePassword{
+ 
+ 
+}
+.leftsideGenerate{
+    padding-right: 50px;
+
+}

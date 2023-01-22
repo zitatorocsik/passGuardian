@@ -85,12 +85,25 @@ function estimateCrackTime(password) {
     }
     if(security >= 6){
         document.getElementById("output").innerHTML = "Very secure";
+        changeBackgroundColor("title", "green");
     } else if(security >= 4) {
         document.getElementById("output").innerHTML = "Secure";
+        changeBackgroundColor("title", "lightblue");
     } else if(security >= 2) {
         document.getElementById("output").innerHTML = "Moderately secure";
+        changeBackgroundColor("title", "red");
     } else {
         document.getElementById("output").innerHTML = "Insecure";
+        changeBackgroundColor("title", "maroon");
     }
 }
+
+function changeBackgroundColor(elementId, color) {
+    document.getElementById(elementId).style.backgroundColor = color;
+    document.getElementById("background-pass").style.backgroundColor = color;
+
+    
+  }
+
+
 
