@@ -6,7 +6,10 @@ function showPassword() {
 function hidePassword() {
     document.getElementById("user-input").type = "password";
   }
+var crackButton = document.getElementById("cracker-button");
+var showButton = document.getElementById("show-button");
 
+crackButton.addEventListener("touchstart", estimateCrackTime);
 
 
 // function estimateCrackTime(password) {
@@ -50,7 +53,7 @@ function hidePassword() {
 //     document.getElementById("output").innerHTML = days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds";
 // }
 
-function estimateCrackTime(password) {
+function estimateCrackTime() {
     var password = document.getElementById("user-input").value;
 
     var lowerCase = /[a-z]/;
