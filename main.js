@@ -105,6 +105,13 @@ function estimateCrackTime() {
 function changeBackgroundColor(elementId, color) {
     document.getElementById(elementId).style.backgroundColor = color;
     document.getElementById("background-pass").style.backgroundColor = color;
+    document.getElementById("testimonials").style.backgroundColor = color;
+    document.getElementById("cta").style.backgroundColor = color;
+    document.getElementById("colour-changer-text").style.color = color;
+    document.getElementById("colour-changer-text2").style.color = color;
+    document.getElementById("colour-changer-text3").style.color = color;
+
+
 
     
   }
