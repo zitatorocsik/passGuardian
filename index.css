@@ -29,6 +29,7 @@ h1{
 h3{
     font-family:"Montserrat" ;
     font: weight 1.5rem; 
+    color: orange;
 
 }
 h2{
@@ -90,6 +91,9 @@ p{
     background-color: #fff;
     position: relative;
    z-index: 1;
+
+   padding: 100px;
+   text-align: center;
 }
 .feature-box{
     text-align: center;
@@ -97,19 +101,19 @@ p{
 }
 
 .icon{
-    color:#ef8172 ;
+    color:orange ;
     margin-bottom: 1rem;
 
 }
 .icon:hover{
-    color: #ff4c68;
+    color: orange;
 }
 
 #testimonials{
     
     text-align: center;
     background-color: orange;
-    color: #000;
+    color: rgb(255, 254, 216);
 }
 .testimonial-image{
     width: 10%;
@@ -120,11 +124,6 @@ p{
     padding: 7% 15%;
 }
 
-#press{
-    background-color: #ff4c68;
-    text-align: center;
-    padding-bottom: 3%;
-}
 
 .press-logo{
     width: 15%;
@@ -140,7 +139,7 @@ p{
 }
 
 #cta{
-    background-color:#ff4c68;
+    background-color:orange;
     text-align: center;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
