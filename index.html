@@ -44,14 +44,15 @@
       <div class="row">
         <div class="col-lg-12">
           <h1 style="font-size:3rem; padding-top: 170px;">How long can our Guard protect your password?</h1>
-
-          <div>
-            <input class="password-input" id="todo-add-text" type="text" placeholder="Enter password" />
+          <div class="password-cracker">
+            <label for="user-input">Enter Text:</label>
+            <input type="password" id="user-input">
+            <button id="cracker-button" onmouseover="showPassword()" onmouseout="hidePassword()">Show/Hide Password</button>
+            <button id="show-button" onclick="estimateCrackTime()">Convert to Uppercase</button>
           </div>
-          <div>
-            <button class="check-button">Judge Me</button>
-            <div id="check-password"></div>
-          </div>
+          <div id="output"></div>
+          <div id="output"></div>
+          
 
 
          

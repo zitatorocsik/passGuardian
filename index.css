@@ -1,6 +1,15 @@
 body{
     font-family: "Montserrat";
 }
+
+#show-button, #cracker-button {
+    padding: 10px;
+  }
+
+.password-cracker {
+    text-align: center;
+}
+
 #title{
     background-color:#ffa500;
     color:#fff ;
