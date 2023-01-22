@@ -5,6 +5,7 @@ body{
 
 #show-button, #cracker-button {
     padding: 10px;
+    margin: 5px;
   }
 
 .password-cracker {
@@ -17,7 +18,7 @@ body{
 }
 
 .container{
-    padding: 3% 15% 15%;
+    /* padding: 3% 15% 15%; */
 }
 
 #user-input {
@@ -25,7 +26,9 @@ body{
     border-radius: 10px;
     border: none;
     margin: 20px;
+    width: 60%;
 }
+
  
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -175,12 +178,3 @@ p{
     }
 }
 
-/*Generate a password section */
-.generatePassword{
- 
- 
-}
-.leftsideGenerate{
-    padding-right: 50px;
-
-}
